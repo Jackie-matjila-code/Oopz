@@ -7,19 +7,21 @@ import { RegisterComponent } from './Client/register/register.component';
 import { LoginComponent } from './Client/login/login.component';
 import { HomeComponent } from './Client/home/home.component';
 
-//firebase
+// firebase
 import { environment } from './../environments/environment';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
+import { HeaderComponent } from './Client/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
